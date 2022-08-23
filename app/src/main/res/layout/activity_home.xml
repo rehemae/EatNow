@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvimage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="8dp">
+
+    <TextView
+        android:id="@+id/tvcompany"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/black"
+        android:text="EatNow"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imgSign"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        app:iconifiedByDefault="false"
+        app:srcCompat="@drawable/ic_round_person_24"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        android:text="Sign in"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="230dp"
+        app:srcCompat="@drawable/img_3" />
+
+    <TextView
+        android:id="@+id/tvoffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:background="@color/teal_700"
+
+
+        android:text="20% Offer"
+        android:textSize="30dp" />
+
+</androidx.cardview.widget.CardView>
+
+
